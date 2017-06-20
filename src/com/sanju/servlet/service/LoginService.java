@@ -41,12 +41,5 @@ public class LoginService {
 	public void addUser(String name, String pass) {
 		userList.put(name, pass);
 	}
-	
-	public String getUser(String name) {
-		return userList.get(name);
-	}
-	
-	public boolean checkUser(String name) {
-		return userList.containsKey(name);
-	}
+
 }

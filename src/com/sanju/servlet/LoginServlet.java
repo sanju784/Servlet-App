@@ -64,7 +64,6 @@ public class LoginServlet extends HttpServlet {
 				    title + "</title></head>" +
 				    "<body bgcolor = \"#f0f0f0\">" + header +
 				    "<h2 align=\"center\">" + title + "</h2>" +
-				    
 				    "<form action=\"login\" method=\"post\">" +
 				    "<table><tr><td>Enter name:</td>" +
 				    "<td><input type=\"text\" name=\"username\"></td></tr>" +
